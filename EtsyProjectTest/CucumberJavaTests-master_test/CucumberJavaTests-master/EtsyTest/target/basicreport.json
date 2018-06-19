@@ -1,0 +1,439 @@
+[
+  {
+    "id": "hotel-booking-create-\u0026-delete-entry",
+    "tags": [
+      {
+        "name": "@testme",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "Hotel Booking Create \u0026 Delete Entry",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "id": "hotel-booking-create-\u0026-delete-entry;verifying-create-and-delete-entry",
+        "description": "",
+        "name": "verifying create and delete entry",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "name": "I am a on etsy page",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "Etsy.i_am_on_etsy_page()"
+            }
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I search for \"sport shoes\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I select \"sport shoes\" and hit search",
+            "keyword": "And ",
+            "line": 7,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I sort by \"Lowest Price\"",
+            "keyword": "And ",
+            "line": 8,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I print top 10 items price",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "stories/CreateAndDeleteEntries.feature"
+  },
+  {
+    "id": "hotel-booking---multiple-entries",
+    "tags": [
+      {
+        "name": "@Regression",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "Hotel Booking - Multiple Entries",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "id": "hotel-booking---multiple-entries;verifying-create-and-delete-entry;;2",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "description": "",
+        "name": "verifying create and delete entry",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I am a loggedIn user on hotel management platform portal page",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I fill the hotel details as \"Siva2\", \"London2\",\"Sirigiri2\",\"1234567892\",\"test2@test2.com\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I click on Create button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I should be able to see the hotel details are saved",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "hotel-booking---multiple-entries;verifying-create-and-delete-entry;;3",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "description": "",
+        "name": "verifying create and delete entry",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I am a loggedIn user on hotel management platform portal page",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I fill the hotel details as \"Siva3\", \"London3\",\"Sirigiri3\",\"1234567893\",\"test3@test3.com\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I click on Create button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I should be able to see the hotel details are saved",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "hotel-booking---multiple-entries;verifying-create-and-delete-entry;;4",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "description": "",
+        "name": "verifying create and delete entry",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I am a loggedIn user on hotel management platform portal page",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I fill the hotel details as \"Siva4\", \"London3\",\"Sirigiri3\",\"1234567893\",\"test3@test3.com\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I click on Create button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I should be able to see the hotel details are saved",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "hotel-booking---multiple-entries;verifying-create-and-delete-entry;;5",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "description": "",
+        "name": "verifying create and delete entry",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I am a loggedIn user on hotel management platform portal page",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I fill the hotel details as \"Siva5\", \"London3\",\"Sirigiri3\",\"1234567893\",\"test3@test3.com\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I click on Create button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I should be able to see the hotel details are saved",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "hotel-booking---multiple-entries;verifying-create-and-delete-entry;;6",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 1
+          }
+        ],
+        "description": "",
+        "name": "verifying create and delete entry",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I am a loggedIn user on hotel management platform portal page",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I fill the hotel details as \"Siva6\", \"London3\",\"Sirigiri3\",\"1234567893\",\"test3@test3.com\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I click on Create button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I should be able to see the hotel details are saved",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "stories/CreateMultipleEntriees.feature"
+  },
+  {
+    "id": "hotel-booking---delete-all-entries",
+    "tags": [
+      {
+        "name": "@DeleteEntry",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "Hotel Booking - Delete All Entries",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "id": "hotel-booking---delete-all-entries;verifying-delete-all-entries",
+        "description": "",
+        "name": "verifying delete all entries",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I am a loggedIn user on hotel management platform portal page",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I delete all entries",
+            "keyword": "When ",
+            "line": 6,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I should see zero records in the page",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "stories/DeleteEntries.feature"
+  }
+]
